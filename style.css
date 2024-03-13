@@ -41,3 +41,35 @@ label {
   font-weight: 600;
   margin: 3em 0 0.3em 0;
 }
+textarea {
+  resize: none;
+  border: 1px solid black;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  width: 100%;
+}
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+}
+button {
+  background-color: transparent;
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 1em 2em;
+  border-radius: 0.3em;
+  outline: none;
+  margin: 1em 0;
+  cursor: pointer;
+  height:42px;
+}
+button:hover {
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.8); 
+}
+p {
+  font-weight: 600;
+}
+p span {
+  font-weight: 400;
+}
