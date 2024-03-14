@@ -1,5 +1,3 @@
-//Morse Code Dictionary
-//You can expand this as needed
 const morseCode = {
   A: ".-",
   B: "-...",
@@ -103,4 +101,3 @@ translateButton.addEventListener("click", () => {
     outputField.textContent = translatedWords.join("/");
   }
 });
-
